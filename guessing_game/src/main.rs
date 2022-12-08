@@ -20,7 +20,7 @@ fn main() {
                 println!("Please insert a number!");
                 continue;
             }
-        };git 
+        };
         println!("You guessed: {guess}");
 
         match guess.cmp(&secret_number) {
